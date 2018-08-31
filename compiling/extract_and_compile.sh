@@ -1,5 +1,5 @@
 #!/bin/bash
-tar -xzf NthPrime.tgz -C /tmp/data
-
-
+echo "number arg: $1"
+echo "directly arg: $2"
+tar -xzf NthPrime.tgz -C $2 
 
